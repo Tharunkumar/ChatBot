@@ -1,0 +1,26 @@
+﻿
+@{
+//Layout = null;
+}
+
+
+<html lang="en">
+<head>
+  <title>Chat Bot</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2" ></div>
+      <div class="col-md-8">
+        @ViewBag.Res
+        <div id="content"></div>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+  </div>
+    <script type="text/javascript"> var homeUrl = "@Request.Url"; var reqSurveyId = "@ViewBag.ReqSurveyId"; var reqQuestionId = "@ViewBag.ReqQuestionId"</script>
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/bundle.js"></script>
+</body>
+</html>

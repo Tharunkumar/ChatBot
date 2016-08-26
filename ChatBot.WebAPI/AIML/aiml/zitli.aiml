@@ -1,0 +1,32 @@
+<aiml>
+    <category>
+        <pattern>hi</pattern>
+        <template>Hello.#repeat</template>
+    </category>
+	
+    <category>
+        <pattern>hello</pattern>
+        <template>Hello.#repeat</template>
+    </category>
+  
+      <category>
+        <pattern>how are you</pattern>
+        <template>Im Pretty good.#repeat</template>
+    </category>
+
+	<category>
+        <pattern>asdf</pattern>
+        <template>Sorry, i cant follow what you said.#repeat</template>
+    </category>
+	
+    <category>
+        <pattern>aaaaa</pattern>
+        <template>Sorry, i cant follow what you said.#repeat</template>
+    </category>
+
+  <category>
+    <pattern>*</pattern>
+    <template>#next</template>
+  </category>
+  
+</aiml>
